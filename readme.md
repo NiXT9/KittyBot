@@ -52,13 +52,7 @@ pip install pyTelegramBotAPI requests python-dotenv
 После выполнения всех шагов осталось запустить скрипт:
 
 ```bash
-python имя_файла.py
-```
-
-Если вы назвали файл `bot.py`, команда будет:
-
-```bash
-python bot.py
+python kittybot.py
 ```
 
 В консоли появятся логи. Бот начнёт опрашивать серверы Telegram и отвечать на команды.
