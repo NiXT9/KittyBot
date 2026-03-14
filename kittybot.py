@@ -4,12 +4,15 @@ import random
 import requests
 import logging
 from telebot import TeleBot, types
+from dotenv import load_dotenv
 
 # Настройка логирования
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+load_dotenv()
 
 # Создаём папку для логов, если её нет
 log_dir = 'logging'
